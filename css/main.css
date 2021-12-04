@@ -1,0 +1,63 @@
+/*.main-block {*/
+/*    background-image: url("../images/bg2.jpg");*/
+/*}*/
+body {
+    margin: 0;
+}
+
+.mx-auto, .fw-bold {
+    color: white;
+}
+
+.col-lg-4 {
+    width: 50%;
+}
+
+.justify-content-center {
+    margin-bottom: 50px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    /*background-image: url("../images/bg2.jpg");*/
+}
+
+.timeline_area {
+    /*background: rgb(78, 197, 180);*/
+    /*background: linear-gradient(90deg, rgba(78, 197, 180, 1) 0%, rgba(65, 188, 174, 1) 17%, rgba(43, 133, 167, 1) 89%);;*/
+    /*background: rgb(78,197,180);*/
+    /*background: linear-gradient(90deg, rgba(78,197,180,0.49933476808692223) 0%, rgba(65,188,174,0.558158297498687) 17%, rgba(43,133,167,0.3648809865743172) 89%);*/
+    /*background-color: rgba(203, 195, 178, 0.6);*/
+}
+
+.main-block h1 {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+
+#form {
+    /*max-width: 1200px;*/
+    margin: 50px auto 20px auto;
+    width: 500px;
+}
+
+.main-block__a {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+form p {
+    text-align: center;
+}
+
+.foto {
+    border-radius: 50%
+}
