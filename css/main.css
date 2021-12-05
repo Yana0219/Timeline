@@ -45,7 +45,7 @@ body {
 }
 
 #form {
-    margin: 50px auto 20px auto;
+    margin: 50px auto 0 auto;
     width: 500px;
 }
 
@@ -157,7 +157,15 @@ a {
 
 #footer {
     max-width: 1200px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto;
+}
+
+#footer_bg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../images/bg4.jpg");
+    background-size: cover;
+    border-top: 3px solid #85ab85;
 }
 
 #footer_main {
@@ -187,5 +195,18 @@ a {
 
 h3, h4 {
     text-align: center;
-    margin-top: 50px;
+    margin: 0;
+}
+
+span {
+    color: #8fcba7;
+}
+
+#main_bg {
+    padding-top: 59px;
+    padding-bottom: 50px;
+    background: #F0F6FF;
+    background: -webkit-linear-gradient(top, #F0F6FF, #F8FBF4);
+    background: -moz-linear-gradient(top, #F0F6FF, #F8FBF4);
+    background: linear-gradient(to bottom, #F0F6FF, #F8FBF4);
 }
